@@ -22,15 +22,15 @@ Framework for a platformer made in Unity based off Little Big Planet for learnin
 - Pause/restart/game over menu.
 - Player input through Unity Input System
 
-## Learning
+## Project Notes
 
 ### Raycasting
 
-Raycasting, along with boxcasts and spherecasts are used for grounding, slopes, lane shifting, and grab checks. Learning how to properly take advantage of these proved to be extremely useful. The grounded check is done through a short boxcast from the center of the player collider to right below the player collider. Lane shifting has boxcasts the size of the player collider on both sides of the colliders x-axis to make sure there is space to shift. Lastly the grab checks a spherecast for any grabbable objects in its range so they player can latch onto it. Slope ray casts are explained below in slopes section. All of these can be seen in the screenshots below.
+Raycasting, along with boxcasts and spherecasts are used for grounding, slopes, lane shifting, auto shifting, and grab checks. Learning how to properly take advantage of these proved to be extremely useful. The grounded check is done through a short boxcast from the center of the player collider to right below the player collider. Lane shifting has boxcasts the size of the player collider on both sides of the colliders x-axis to make sure there is space to shift. Auto shifting lanes uses raycasts in each lane to check if there is ground the player should be moved to while they are falling if they have none below them. Lastly the grab uses a spherecast to check for any grabbable objects in its range so the player can latch onto it. Slope ray casts are explained below in slopes section. All of these can be seen in the screenshots below.
 
 ### Events and Delegates
 
-Events and delegates are used to help control the game. They are used to handle things such as deaths, pauses, the checkpoint system, etc.
+Events and delegates are used to help control the game. They are used to handle things such as deaths, pauses, the checkpoint system, etc. They make it easy to reference and call a method within another class/script to help handle game logic associated with certain events.
 
 ### Prefabs
 
