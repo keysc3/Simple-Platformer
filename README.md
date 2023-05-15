@@ -23,9 +23,9 @@ Framework for a platformer made in Unity based off of Little Big Planet.
 
 ## Screenshots
 
-![Player Front](/Screenshots/SacboyFrontText?raw=true)
+![Player Front](/Screenshots/SacboyFrontText.png?raw=true)
 
-![Player Side](/Screenshots/SacboySide?raw=true)
+![Player Side](/Screenshots/SacboySide.PNG?raw=true)
 
 
 ## Demo
